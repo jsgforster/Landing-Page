@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.navbar, .hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 24px 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.img1 {
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.hero {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 26px;
+
+}
+
+.heroTitle {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.heroBody {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 500px;
+    gap: 16px;
+
+}
+
+
+.hero button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px;
+    width: 120px;
+    border: 3px;
+    border-radius: 8px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 58px;
+}
+.infoTitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 24px ;
+}
+.sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.sectionSingle>img {
+    max-width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+
+.sectionSingle>div {
+    font-size: 12px;
+    color: #3b3b3ba1;
+    text-align: center;
+}
+.sectionSingle {
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    padding:  100px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoteContent {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+
+}
