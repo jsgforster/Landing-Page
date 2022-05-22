@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
 
 }
 .navbar, .hero {
@@ -32,6 +33,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 26px;
+    flex-wrap: wrap;
 
 }
 
@@ -94,6 +96,7 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 35px;
+    flex-wrap: wrap;
 }
 
 .sectionSingle>img {
@@ -134,5 +137,45 @@ ul {
 .author {
     align-self: flex-end;
     font-weight: bold;
+}
+.callAction {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 60px;
+    max-width: 600px;
+    padding: 50px 80px;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 50px;
+}
 
+.callActionTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.callActionBody {
+    color: #dbdbde;
+}
+
+.callAction>.right>button {
+    border: #e5e7eb solid 1px;
+    border-radius: 5px;
+    padding: 3px 12px;
+    color: #e5e7eb;
+    background-color: transparent;
+    flex-shrink: 0;
+    white-space: nowrap;
+    
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #dbdbde;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
 }
